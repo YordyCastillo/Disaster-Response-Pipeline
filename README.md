@@ -67,8 +67,9 @@ The project data was provided by Figure Eight (now Appen) and is part of the Dat
 
 ## Graphs From Web Page
 
-![Image Description]([path/to/image/file.png](blob/main/newplot%20(1).png))
-![Image Description]([path/to/image/file.png](blob/main/newplot%20(2).png))
-![Image Description]([path/to/image/file.png](blob/main/newplot%20(3).png))
+![Image Description](https://github.com/YordyCastillo/Disaster-Response-Pipeline/raw/main/newplot%20(1).png)
+
+![Image Description](https://github.com/YordyCastillo/Disaster-Response-Pipeline/raw/main/newplot%20(1).png)
+![Image Description](https://github.com/YordyCastillo/Disaster-Response-Pipeline/raw/main/newplot%20(1).png)
 
 
