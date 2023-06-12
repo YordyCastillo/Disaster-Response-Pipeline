@@ -15,7 +15,7 @@ The project consists of three main components:
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
         
     - You may need to update Pandas to create the classifier pickle file, to do so run the following command:
-     'pip install -U pandas'
+     `pip install -U pandas`
     - To run the ML pipeline that trains the classifier and saves the model:
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
