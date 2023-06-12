@@ -43,6 +43,7 @@ def clean_data(df):
     categories.dropna(subset=['related'], inplace=True)
 
     df.drop('categories', axis=1, inplace=True)
+
     df = pd.concat([df, categories], axis=1, join='inner')
     df.drop_duplicates(inplace=True)
 
