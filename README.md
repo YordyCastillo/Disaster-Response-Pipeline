@@ -13,7 +13,9 @@ The project consists of three main components:
 
     - To run the ETL pipeline that cleans the data and stores it in the database:
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-
+        
+    * you may need to update Pandas to create the classifier pickle file, to do so run the following command: 'pip install -U pandas
+'*
     - To run the ML pipeline that trains the classifier and saves the model:
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
