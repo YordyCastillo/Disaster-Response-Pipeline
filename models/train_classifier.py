@@ -45,19 +45,23 @@ def load_data(database_filepath):
 
 def tokenize(text):
     """
-    Tokenize text data
+    Tokenize text data and perform lemmatization
     
     Arguments:
     text -- string, text data to be tokenized
     
     Returns:
-    tokens -- list of strings, tokenized text data
+    tokens -- list of strings, tokenized and lemmatized text data
     """
     # Normalize text data
     text = text.lower()
     
     # Tokenize text data
     tokens = word_tokenize(text)
+    
+    # Lemmatize tokens
+    lemmatizer = WordNetLemmatizer()
+    tokens = [lemmatizer.lemmatize(token) for token in tokens]
     
     return tokens
 
